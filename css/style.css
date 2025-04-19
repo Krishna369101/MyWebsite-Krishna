@@ -691,7 +691,7 @@ width: 100%;
 .timeline {
   position: relative;
   max-width: 800px;
-  min-width: 350px;
+  min-width: 300px;
   margin: 0 auto;
   align-items: center;
 }
