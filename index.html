@@ -494,6 +494,67 @@
             }
         }
         
+    /* Tablet Responsive Design */
+    @media (max-width: 992px) {
+        .experience {
+        padding: 4rem 1.5rem;
+        }
+    
+        .timeline-title {
+            font-size: 1.2rem;
+        }
+    
+        .timeline-company {
+            font-size: 1rem;
+        }
+    }
+    /* Mobile Responsive Design */
+    @media (max-width: 768px) {
+    .experience {
+        padding: 3rem 1rem;
+    }
+    
+    /* Hide the timeline line completely */
+    .timeline::before {
+        display: none;
+    }
+    
+    /* Hide timeline dots */
+    .timeline-dot {
+        display: none;
+    }
+    
+    /* Reset padding for all timeline items */
+    .timeline-item {
+        padding: 0 !important; /* Override both odd and even items */
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    
+    .timeline-content {
+        padding: 1.5rem;
+        max-width: 100%;
+    }
+    
+    .timeline-title {
+        font-size: 2rem;
+    }
+    
+    .timeline-date, .timeline-company {
+        font-size: 0.9rem;
+    }
+}
+
+/* Small Phone Responsive Design */
+@media (max-width: 480px) {
+    .experience {
+        padding: 2rem 0.75rem;
+    }
+    
+    .timeline-content {
+        padding: 1rem;
+    }
+}
         /* Responsive */
         @media (max-width: 768px) {
             .about-content {
